@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 10px 50px 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  height: 80vh;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 30px;
+  list-style-type: none;
+}
